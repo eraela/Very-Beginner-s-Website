@@ -1,0 +1,225 @@
+body {
+  color: white;
+  margin: 0;
+  text-align: center;
+  font-family: "Aref Ruqaa Ink", serif;
+  font-size: 25px;
+}
+
+p {
+  font-family: "Merriweather", serif;
+  font-size: small;
+}
+
+h1 {
+  margin: 100px auto 0 auto;
+  text-align: center;
+  color: #a9d8ce;
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: #eaf6f6;
+  font-weight: normal;
+}
+
+.firsthh {
+  line-height: 2;
+}
+
+h3 {
+  color: #ffffff;
+  font-family: "Montserrat" sans-serif;
+  float: top;
+  margin-bottom: 1px;
+}
+
+img {
+  position: relative;
+}
+
+.top-container {
+  position: relative;
+  background-color: #00123a;
+  padding-top: 100px;
+  height: 81.15vh;
+}
+
+.middle-container {
+  margin: 100px 0;
+  background-color: #f5b900;
+}
+
+.bottom-container {
+  width: 200px;
+  background-color: #a9d8ce;
+}
+
+.web {
+  text-decoration: underline;
+}
+
+.dielli {
+  height: 150px;
+  position: absolute;
+  right: 500px;
+  top: 50px;
+}
+
+.dielli:hover {
+  filter: hue-rotate(-40deg);
+}
+
+.hr {
+  border: dotted #eaf6f6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 80px auto;
+}
+
+.hena {
+  height: 150px;
+  position: absolute;
+  left: 550px;
+  bottom: 400px;
+}
+
+.hena:hover {
+  filter: hue-rotate(-40deg);
+}
+
+.imajtas {
+  height: 350px;
+  margin: 20px;
+}
+
+.imajtas:hover {
+  filter: hue-rotate(-60deg);
+}
+
+.imes {
+  height: 350px;
+  margin: 20px;
+}
+
+.imes:hover {
+  filter: hue-rotate(-60deg);
+}
+
+.idjathtas {
+  height: 350px;
+  margin: 20px;
+}
+
+.idjathas:hover {
+  filter: hue-rotate(-60deg);
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.myimage {
+  width: 6%;
+  border-radius: 50%;
+}
+
+.myimage p {
+  line-height: 2;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 50px auto 50px auto;
+  text-align: left;
+}
+
+.imageskills {
+  /*vizore dhe lapsi */
+  float: left;
+  width: 20%;
+  margin-right: 30px;
+}
+
+.imgvector {
+  /*shigjeta */
+  float: right;
+  width: 20%;
+  margin-left: 30px;
+}
+
+.imgbrowser {
+  position: relative;
+  height: 60px;
+  width: auto;
+}
+
+.imgbrowser2 {
+  position: relative;
+  height: 60px;
+  width: auto;
+  margin-bottom: 20px;
+}
+
+.listofstuff:hover {
+  color: #00123a;
+}
+
+.footer-link:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer-link {
+  color: #eaf6f6;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+.bottom-container {
+  background-color: #00123a;
+  color: #00123a;
+  padding: 50px 0 20px;
+  width: auto;
+}
+
+.copyright {
+  color: #eaf6f6;
+  font-size: 0.75rem;
+}
+
+.bottom-container:hover {
+  color: #00123a;
+}
+
+.contact-me {
+  width: 40%;
+}
+
+.btn {
+  background: #000f17;
+  background-image: -webkit-linear-gradient(top, #000f17, #1e86ba);
+  background-image: -moz-linear-gradient(top, #000f17, #1e86ba);
+  background-image: -ms-linear-gradient(top, #000f17, #1e86ba);
+  background-image: -o-linear-gradient(top, #000f17, #1e86ba);
+  background-image: linear-gradient(to bottom, #000f17, #1e86ba);
+  -webkit-border-radius: 9;
+  -moz-border-radius: 9;
+  border-radius: 9px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #F7BF00;
+  background-image: -webkit-linear-gradient(top, #F7BF00, #FF7918);
+  background-image: -moz-linear-gradient(top, #F7BF00, #FF7918);
+  background-image: -ms-linear-gradient(top, #F7BF00, #FF7918);
+  background-image: -o-linear-gradient(top, #F7BF00, #FF7918);
+  background-image: linear-gradient(to bottom, #F7BF00, #FF7918);
+  text-decoration: none;
+}
