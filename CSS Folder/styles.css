@@ -42,11 +42,12 @@ img {
   position: relative;
   background-color: #00123a;
   padding-top: 100px;
-  height: 81.15vh;
+  height: 101.15vh;
+  overflow: hidden;
 }
 
 .middle-container {
-  margin: 100px 0;
+  padding: 100px 0;
   background-color: #f5b900;
 }
 
@@ -62,8 +63,8 @@ img {
 .dielli {
   height: 150px;
   position: absolute;
-  right: 500px;
-  top: 50px;
+  right: 25%;
+  top: 15%;
 }
 
 .dielli:hover {
@@ -80,8 +81,8 @@ img {
 .hena {
   height: 150px;
   position: absolute;
-  left: 550px;
-  bottom: 400px;
+  left: 25%;
+  bottom: 48%;
 }
 
 .hena:hover {
@@ -98,7 +99,7 @@ img {
 }
 
 .imes {
-  height: 350px;
+  height: 355px;
   margin: 20px;
 }
 
@@ -180,7 +181,7 @@ img {
 .bottom-container {
   background-color: #00123a;
   color: #00123a;
-  padding: 50px 0 20px;
+  padding: 80px 20px;
   width: auto;
 }
 
@@ -215,11 +216,39 @@ img {
 }
 
 .btn:hover {
-  background: #F7BF00;
-  background-image: -webkit-linear-gradient(top, #F7BF00, #FF7918);
-  background-image: -moz-linear-gradient(top, #F7BF00, #FF7918);
-  background-image: -ms-linear-gradient(top, #F7BF00, #FF7918);
-  background-image: -o-linear-gradient(top, #F7BF00, #FF7918);
-  background-image: linear-gradient(to bottom, #F7BF00, #FF7918);
+  background: #f7bf00;
+  background-image: -webkit-linear-gradient(top, #f7bf00, #ff7918);
+  background-image: -moz-linear-gradient(top, #f7bf00, #ff7918);
+  background-image: -ms-linear-gradient(top, #f7bf00, #ff7918);
+  background-image: -o-linear-gradient(top, #f7bf00, #ff7918);
+  background-image: linear-gradient(to bottom, #f7bf00, #ff7918);
   text-decoration: none;
+}
+
+/* responsive */
+@media (max-width: 1100px) {
+  .dielli {
+    right: 15% !important;
+    top: 12% !important;
+  }
+  .hena {
+    height: 130px !important;
+    left: 18% !important;
+    bottom: 50% !important;
+  }
+}
+@media (max-width: 800px) {
+  .dielli {
+    display: none;
+  }
+  .hena {
+    display: none;
+  }
+  .skill-row {
+    width: 70% !important;
+  }
+  .getInTouch {
+    width: 90%;
+    margin: auto;
+  }
 }
